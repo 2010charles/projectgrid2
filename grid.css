@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.container{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 550px;
+}
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+.btn{
+    background-color:hsl(226, 43%, 10%);
+    border-radius: 10px;
+}
+.top-left{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.top-right{
+    font-size: large;
+    float: right;
+    margin-top: -20px;
+}
+.hours{
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+.btn{
+    margin-top: 30px;
+    height: 150px;
+    width: 150px;
+}
+.all-img{
+    background-image: url(./images/icon-work.svg);
+    border-radius: 10px;
+    height: 170px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-color: hsl(15, 100%, 70%);
+}
+.all-img3{
+    background-image: url(./images/icon-play.svg);
+    border-radius: 20px;
+    height: 170px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-color:hsl(195, 74%, 62%) ;
+}
+.all-img4{
+    background-image: url(./images/icon-study.svg);
+    border-radius: 20px;
+    height: 170px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-color:hsl(348, 100%, 68%) ;
+}
+.all-img5{
+    background-image: url(./images/icon-exercise.svg) ;
+    border-radius: 20px;
+    height: 170px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-color: hsl(145, 58%, 55%) ;
+}
+.all-img6{
+    background-image: url(./images/icon-social.svg);
+    border-radius: 20px;
+    height: 170px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-color:hsl(264, 64%, 52%) ;
+}
+.all-img7{
+    background-image: url(./images/icon-self-care.svg);
+    border-radius: 20px;
+    height: 170px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-color:hsl(43, 84%, 65%) ;
+}
+
+.firstsection{
+    background-color: blueviolet;
+    border-radius: 20px;
+    height: 200px;
+}
+jeremyimg{
+    height: 50px;
+    width: 40px;
+}
+.second-section{
+    background-color:hwb(226 6% 86%) ;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+all-product{
+    height: 750px;
+}
